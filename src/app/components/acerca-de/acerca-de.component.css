@@ -1,0 +1,38 @@
+.row{
+    padding: 10px;
+}
+div{
+    background-color: aqua;
+    text-align: center;
+}
+
+/*etiqueta name*/
+
+#nombre{
+    font-weight: bold;
+}
+
+/*etiqueta foto*/
+@media (min-width: 576px){
+    #miFoto{
+        position: absolute;
+        width: 15%;
+        border: 0.5px solid black;
+        border-radius: 20%;
+        box-shadow: 3px 3xp 3px grey;
+        left: 2%;
+        top: 600px;
+    }
+}
+
+@media (max-width: 575px){
+    #miFoto{
+        position: absolute;
+        width: 25%;
+        border: 0.5px solid black;
+        border-radius: 20%;
+        box-shadow: 3px 3xp 3px grey;
+        left: 1%;
+        top: 630px;
+    }
+}

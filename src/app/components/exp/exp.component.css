@@ -1,0 +1,20 @@
+.row{
+    padding: 10px;
+}
+
+div{
+    background: aqua;
+}
+
+.fecha, h4{
+    display: inline;
+}
+
+.fecha{
+    color: red;
+    
+}
+.fecha,.info , h4{
+   padding-left: 50px;
+}
+
