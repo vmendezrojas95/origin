@@ -1,5 +1,5 @@
 .row{
-    padding: 10px;
+    padding: 20px;
 }
 div{
     background-color: aqua;
@@ -34,5 +34,41 @@ div{
         box-shadow: 3px 3xp 3px grey;
         left: 1%;
         top: 630px;
+    }
+}
+
+@media (min-width: 1200px){
+    #miFoto{
+        position: absolute;
+        width: 15%;
+        border: 0.5px solid black;
+        border-radius: 20%;
+        box-shadow: 3px 3xp 3px grey;
+        left: 1%;
+        top: 600px;
+    }
+}
+
+@media (min-width: 1335px){
+    #miFoto{
+        position: absolute;
+        width: 15%;
+        border: 0.5px solid black;
+        border-radius: 20%;
+        box-shadow: 3px 3xp 3px grey;
+        left: 1%;
+        top: 500px;
+    }
+}
+
+@media (min-width: 1835px){
+    #miFoto{
+        position: absolute;
+        width: 15%;
+        border: 0.5px solid black;
+        border-radius: 20%;
+        box-shadow: 3px 3xp 3px grey;
+        left: 1%;
+        top: 450px;
     }
 }
